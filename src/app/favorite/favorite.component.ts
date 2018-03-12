@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 
 export class FavoriteComponent {
   isFavorite: boolean;
-  email = 'TTT sss';
 
   onClick() {
     this.isFavorite = !this.isFavorite;
