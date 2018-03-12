@@ -12,8 +12,4 @@ export class FavoriteComponent {
   onClick() {
     this.isFavorite = !this.isFavorite;
   }
-
-  onKeyUp() {
-
-  }
 }
