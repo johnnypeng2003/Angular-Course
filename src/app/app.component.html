@@ -1,7 +1,11 @@
 <h1>Angular-Test</h1>
+<bootstrap-panel>
+  <ng-container class="heading">Head</ng-container>
+  <div class="body">
+    <h2>Body</h2>
+    <p>Some content...</p>
+  </div>
+</bootstrap-panel>
 <app-title></app-title>
 <app-courses></app-courses>
-<app-favorite [isFavorite]="post.isFavoriteX" (change)="onFavoriteChange()"></app-favorite>
-
-
-
+<app-favorite [isFavorite]="post.isFavoriteX" (change)="onFavoriteChange($event)"></app-favorite>
